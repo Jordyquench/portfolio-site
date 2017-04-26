@@ -11,7 +11,7 @@
 
 .container{
 	margin: 0 auto;
-	width: 60em;
+	width: 66em;
 	height: 10em;
 }
 
@@ -121,14 +121,14 @@ a:hover {
 	float: left;
 	text-align: left;
 	font-size: 50px;
-	color: #00B1FF;
+	color: #000;
 }
 
 .about-title h2{
 	float: left;
 	text-align: left;
 	font-size: 30px;
-	color: #00B1FF;
+	color: #000;
 	margin-top: -.5em;
 }
 
@@ -142,8 +142,8 @@ a:hover {
 .portfolio{
 	float: left;
 	width: 100%;
-	height: 60em;
-	background-color: #00B1FF;
+	height: 120em;
+	background-color: #FFF;
 }
 
 .portfolio-title{
@@ -158,23 +158,22 @@ a:hover {
 	float: left;
 	text-align: left;
 	font-size: 50px;
-	color: #EDEDED;
+	color: #000;
 }
 
 .portfolio-title h2{
 	float: left;
 	text-align: left;
 	font-size: 30px;
-	color: #EDEDED;
+	color: #000;
 	margin-top: -.5em;
 }
 
-.portfolio-showcase{
+/*.portfolio-showcase{
 	float: left;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: red;
-	width: 60em;
+	width: 63em;
 	height: 20em;
 }
 
@@ -182,7 +181,109 @@ a:hover {
 	float: left;
 	width: 20em;
 	height: 20em;
+	padding-left: .5em;
+	padding-right: .5em;
 }
+*/
+
+.portfolio-showcase{
+	float: left;
+	width: 100%;
+	height: 30em;
+}
+
+
+.portfolio-pic{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.portfolio-pic img{
+	transition: all .2s ease-in-out;
+
+}
+
+.portfolio-pic:hover img{
+	opacity: .6;
+}
+
+.portfolio-info{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+.portfolio-info h1{
+	margin: auto;
+	text-align: center;
+	font-size: 80px;
+	margin-top: 1em;
+}
+
+.portfolio-info p{
+	margin: auto;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 1em;
+}
+
+.portfolio-info img{
+	margin-left: 11em;
+	margin-top: 1em;
+}
+
+.portfolio-info img{
+	transition: all .2s ease-in-out;
+
+}
+
+.portfolio-info:hover img{
+	opacity: .6;
+}
+
+
+.portfolio-info-2{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.portfolio-info-2 h1{
+	margin: auto;
+	text-align: center;
+	font-size: 80px;
+	margin-top: 1em;
+}
+
+.portfolio-info-2 p{
+	margin: auto;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 1em;
+}
+
+.portfolio-info-2 img{
+	margin-left: 11em;
+	margin-top: 1em;
+}
+
+.portfolio-pic-2{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+.portfolio-pic-2 img{
+	transition: all .2s ease-in-out;
+
+}
+
+.portfolio-pic-2:hover img{
+	opacity: .6;
+}
+
+
 
 /*--------end of portfolio--------*/
 
