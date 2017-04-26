@@ -1,0 +1,223 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	line-height: 1.5em;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*--------used multiple times--------*/
+
+.container{
+	margin: 0 auto;
+	width: 60em;
+	height: 10em;
+}
+
+/*--------Header--------*/
+
+header{
+	width: 100%;
+	height: 40em;
+    background: url("../images/pexels-photo.jpg") center center;
+    position: relative;
+    background-size: cover;
+
+}
+
+header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title{
+	float: left;
+	max-width: 45em;
+	max-height: 50em;
+	text-align: center;
+	padding-top: 20em;
+	padding-left: 10em;
+}
+
+.title h1{
+	float: left;
+	text-align: left;
+	font-size: 120px;
+	color: #FFF;
+}
+
+.title h2{
+	float: left;
+	font-size: 40px;
+	color: #FFF;
+	margin-top: -1em;
+}
+
+/*--------Header--------*/
+
+/*--------nav--------*/
+
+nav {
+    padding: 1em 0;
+    margin-bottom: 4em;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+}
+
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    font-size: 14px;
+
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+}
+
+a:hover {
+	color: #919090; 
+
+} 
+
+/*--------nav--------*/
+
+/*--------about--------*/
+
+.about{
+	float: left;
+	width: 100%;
+	height: 30em;
+	background-color: #EDEDED;
+}
+
+.about-title{
+	float: left;
+	width: 20em;
+	height: 10em;
+	padding-top: 5em;
+
+}
+
+.about-title h1{
+	float: left;
+	text-align: left;
+	font-size: 50px;
+	color: #00B1FF;
+}
+
+.about-title h2{
+	float: left;
+	text-align: left;
+	font-size: 30px;
+	color: #00B1FF;
+	margin-top: -.5em;
+}
+
+
+
+
+/*--------end of about--------*/
+
+/*--------portfolio--------*/
+
+.portfolio{
+	float: left;
+	width: 100%;
+	height: 60em;
+	background-color: #00B1FF;
+}
+
+.portfolio-title{
+	float: left;
+	width: 20em;
+	height: 10em;
+	padding-top: 5em;
+
+}
+
+.portfolio-title h1{
+	float: left;
+	text-align: left;
+	font-size: 50px;
+	color: #EDEDED;
+}
+
+.portfolio-title h2{
+	float: left;
+	text-align: left;
+	font-size: 30px;
+	color: #EDEDED;
+	margin-top: -.5em;
+}
+
+.portfolio-showcase{
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+	width: 60em;
+	height: 20em;
+}
+
+.portfolio-piece{
+	float: left;
+	width: 20em;
+	height: 20em;
+}
+
+/*--------end of portfolio--------*/
+
+
+/*--------skills--------*/
+
+.skills{
+	float: left;
+	width: 100%;
+	height: 30em;
+	background-color: #EDEDED; 
+}
+
+.skills-title{
+	float: left;
+	width: 10em;
+	height: 10em;
+	padding-top: 5em;
+
+}
+
+.skills-title h1{
+	float: left;
+	text-align: left;
+	font-size: 50px;
+	color: #00B1FF;
+}
+
+.skills-title h2{
+	float: left;
+	text-align: left;
+	font-size: 30px;
+	color: #00B1FF;
+	margin-top: -.5em;
+}
+
+/*--------end of portfolio--------*/
+
