@@ -1,0 +1,555 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	line-height: 1.5em;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*--------used multiple times--------*/
+
+.container{
+	margin: 0 auto;
+	max-width: 80em;
+}
+
+/*--------Header--------*/
+
+header{
+	width: 100%;
+	height: 40em;
+    background: url("../images/pexels-photo.jpg") center center;
+    position: relative;
+    background-size: cover;
+
+}
+
+header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title{
+	float: left;
+	max-width: 45em;
+	max-height: 50em;
+	text-align: center;
+	padding-top: 20em;
+}
+
+#title h1{
+	float: left;
+	text-align: left;
+	font-size: 120px;
+	color: #FFF;
+}
+
+#title h2{
+	float: left;
+	font-size: 40px;
+	color: #FFF;
+	margin-top: -1em;
+}
+
+/*--------Header--------*/
+
+/*--------nav--------*/
+
+/*
+
+nav {
+    padding: 1em 0;
+    margin-bottom: 4em;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: #01B1FF;
+
+}
+
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    font-size: 14px;
+
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+}
+
+a:hover {
+	color: #919090; 
+
+} 
+
+@import url('http://fonts.googleapis.com/css?family=Merriweather+Sans:700,300');
+@import url('http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css');
+
+* { padding: 0px; margin: 0px; border: 0px; outline: 0px; }		/* fast reset */
+
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+li { list-style: none; }
+
+.container-2 { margin: 0px 20% 0px 20%; }
+
+#head { margin-top: 5px; }
+
+#menu .box {
+	position: fixed;
+	text-align: center;
+	overflow: hidden;
+	z-index: -1;
+	opacity: 0;
+	width: 100%;
+	height: 4em;
+	left: 0px;
+	top: 0px;
+	background: #00C8FF;
+	-webkit-transition: all 0.3s ease-in-out; 
+	-moz-transition: all 0.3s ease-in-out; 
+	-o-transition: all 0.3s ease-in-out; 
+	transition: all 0.3s ease-in-out;
+}
+
+#menu ul {
+	position: relative;
+	top: 0px;
+left:0px;
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	-ms-transform: scale(2);
+	transform: scale(2);
+	-webkit-transition: all 0.3s ease-in-out; 
+	-moz-transition: all 0.3s ease-in-out; 
+	-o-transition: all 0.3s ease-in-out; 
+	transition: all 0.3s ease-in-out;
+}
+
+#menu li { 
+	display: inline-block; 
+	margin: 10px;
+}
+
+#menu li a {
+	padding: 0px;
+	text-decoration: none;
+	font-size: 26px;
+	color: #fff;
+	-webkit-transition: all 0.2s ease-in-out; 
+	-moz-transition: all 0.2s ease-in-out; 
+	-o-transition: all 0.2s ease-in-out; 
+	transition: all 0.2s ease-in-out;
+}
+
+#menu li a:hover { /*gradian*/ }
+
+#menu li a i { 
+	margin-right: 5px; 
+	font-size: 20px;
+}
+
+#toggle-nav-label {
+	position: fixed;
+	color: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.2);
+	text-align: center;
+	line-height: 30px;
+	font-size: 10px;
+	display: block;
+	cursor: pointer;
+	z-index: 500;
+	width: 25px;
+	height: 25px;
+top:5px;
+left:5px;
+	border-radius: 5px;
+}
+
+#toggle-nav { display: none; }
+
+#toggle-nav:checked ~ .box { 
+	opacity: 1;
+	z-index: 400;
+}
+
+#toggle-nav:checked ~ .box ul {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+#toggle-nav:checked ~ #toggle-nav-label { 
+	background: #fff; 
+	color: rgba(0,0,0,0.8);
+}
+
+#content { margin: 20px 0px 20px 0px; }
+
+#content h1 {
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+#content p {
+	font-size: 14px;
+	line-height: 150%;
+	margin-bottom: 20px;
+}
+
+
+/*--------nav--------*/
+
+/*--------about--------*/
+
+#about{
+	float: left;
+	width: 100%;
+	height: 40em;
+	background-color: #FFF;
+}
+
+
+.about{
+	float: left;
+	width: 100%;
+	height: 30em;
+	background-color: #FFF;
+}
+
+.about-container p{
+	font-size: 20px;
+}
+
+.about-container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 66em;
+}
+
+.about p{
+	margin-bottom: 1em;
+}
+
+.about-title{
+	margin-left: auto;
+	margin-right: auto;
+	width: 16em;
+	height: 10em;
+	padding-top: 5em;
+
+}
+
+.about-title h1{
+	float: left;
+	text-align: left;
+	font-size: 50px;
+	color: #000;
+}
+
+.about-title h2{
+	float: left;
+	text-align: left;
+	font-size: 30px;
+	color: #000;
+	margin-top: -.5em;
+}
+
+.about-title img{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+}
+
+
+
+
+/*--------end of about--------*/
+
+/*--------portfolio--------*/
+
+#portfolio{
+	float: left;
+	width: 100%;
+	height: 120em;
+	background-color: #FFF;
+}
+
+.portfolio-title{
+	margin-left: auto;
+	margin-right: auto;
+	width: 15em;
+	padding-top: 4em;
+
+}
+
+.portfolio-title h1{
+	float: left;
+	text-align: left;
+	font-size: 50px;
+	color: #000;
+}
+
+.portfolio-title h2{
+	float: left;
+	text-align: left;
+	font-size: 30px;
+	color: #000;
+	margin-top: -.5em;
+	margin-bottom: 5em;
+}
+
+.portfolio-title img{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+}
+
+/*.portfolio-showcase{
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 63em;
+	height: 20em;
+}
+
+.portfolio-piece{
+	float: left;
+	width: 20em;
+	height: 20em;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+*/
+
+.portfolio-showcase{
+	float: left;
+	width: 100%;
+	height: 30em;
+}
+
+
+.portfolio-pic{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.portfolio-pic img{
+	transition: all .2s ease-in-out;
+
+}
+
+.portfolio-pic:hover img{
+	opacity: .6;
+}
+
+.portfolio-info{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+.portfolio-info h1{
+	margin: auto;
+	text-align: center;
+	font-size: 80px;
+	margin-top: 1em;
+}
+
+.portfolio-info p{
+	margin: auto;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 1em;
+}
+
+.portfolio-info img{
+	margin-left: 11em;
+	margin-top: 1em;
+}
+
+.portfolio-info img{
+	transition: all .2s ease-in-out;
+
+}
+
+.portfolio-info:hover img{
+	opacity: .6;
+}
+
+
+.portfolio-info-2{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.portfolio-info-2 h1{
+	margin: auto;
+	text-align: center;
+	font-size: 80px;
+	margin-top: 1em;
+}
+
+.portfolio-info-2 p{
+	margin: auto;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 1em;
+}
+
+.portfolio-info-2 img{
+	margin-left: 11em;
+	margin-top: 1em;
+}
+
+.portfolio-info-2 img{
+	transition: all .2s ease-in-out;
+
+}
+
+.portfolio-info-2:hover img{
+	opacity: .6;
+}
+
+
+.portfolio-pic-2{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+.portfolio-pic-2 img{
+	transition: all .2s ease-in-out;
+
+}
+
+.portfolio-pic-2:hover img{
+	opacity: .6;
+}
+
+
+
+/*--------end of portfolio--------*/
+
+
+/*--------skills--------*/
+
+#skills{
+	float: left;
+	width: 100%;
+}
+
+.skills-title{
+	margin-left: auto;
+	margin-right: auto;
+	width: 7em;
+	height: 10em;
+
+}
+
+.skills-title h1{
+	float: left;
+	text-align: left;
+	font-size: 50px;
+	color: #000;
+}
+
+.skills-title h2{
+	float: left;
+	text-align: left;
+	font-size: 30px;
+	color: #000;
+	margin-top: -.5em;
+}
+
+.skills-charts{
+	margin-left: auto;
+	margin-right: auto;
+	height: 30em;
+	width: 66em;
+}
+
+.chart{
+	float: left;
+	width: 20em;
+	height: 20em;
+	margin-left: 1.5em;
+
+
+}
+
+.skill-title{
+	float: left;
+	width: 10em;
+	height: 10em;
+	font-size: 32px;
+	text-align: center;
+}
+
+/*--------end of skills--------*/
+
+/*--------footer--------*/
+
+
+footer {
+	float: left;
+    width: 100%;
+    height: 10em;
+    background-color: #00C8FF;
+    color: #ffffff;
+    position: relative;
+}
+
+footer h1{
+	margin-bottom: 1em;
+}
+
+.social-icons{
+	text-align: center;
+	font-size: 32px;
+}
+
+.social-icons:hover img{
+	opacity: .6;
+	transform: scale(.90);
+}
+
+.social-icons img:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.social-icons img{
+	transition: all .2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
