@@ -4,7 +4,31 @@
 	font-size: 100%;
 	line-height: 1.5em;
 	font-family: 'Roboto', sans-serif;
+	letter-spacing: .5px;
 }
+
+
+
+
+/*--------Header--------*/
+
+#hero{
+	background-image: url('../images/hero.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+
+}
+
+
+
+
+
+/*--------Header--------*/
+
 
 
 /*--------used multiple times--------*/
@@ -14,75 +38,25 @@
 	max-width: 80em;
 }
 
-/*--------Header--------*/
-
-header{
-	width: 100%;
-	height: 40em;
-    background: url("../images/pexels-photo.jpg") center center;
-    position: relative;
-    background-size: cover;
-
-}
-
-header img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#title{
-	float: left;
-	max-width: 45em;
-	max-height: 50em;
-	text-align: center;
-	padding-top: 20em;
-}
-
-#title h1{
-	float: left;
-	text-align: left;
-	font-size: 120px;
-	color: #FFF;
-}
-
-#title h2{
-	float: left;
-	font-size: 40px;
-	color: #FFF;
-	margin-top: -1em;
-}
-
-/*--------Header--------*/
 
 /*--------nav--------*/
 
-/*
-
-nav {
-    padding: 1em 0;
-    margin-bottom: 4em;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    background-color: #01B1FF;
-
-}
 
 
 nav ul {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
+	background-color: #43a286;
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 20px;
-    font-size: 14px;
-
+nav ul li{
+	display: inline-block;
+	padding: 20px;
 }
+
 
 a {
 	color: #FFF;
@@ -99,10 +73,22 @@ a:hover {
 
 } 
 
-@import url('http://fonts.googleapis.com/css?family=Merriweather+Sans:700,300');
-@import url('http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css');
 
-* { padding: 0px; margin: 0px; border: 0px; outline: 0px; }		/* fast reset */
+
+@media (max-width: 580px){
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding-bottom: 15px;
+
+
+	}
+}
+
+
+
+
+	/* fast reset *
 
 
 a { text-decoration: none; }
@@ -244,7 +230,7 @@ left:5px;
 .about-container{
 	margin-left: auto;
 	margin-right: auto;
-	width: 66em;
+	width: 75%;
 }
 
 .about p{
@@ -291,8 +277,8 @@ left:5px;
 #portfolio{
 	float: left;
 	width: 100%;
-	height: 120em;
 	background-color: #FFF;
+	padding-bottom: 4em;
 }
 
 .portfolio-title{
@@ -545,6 +531,8 @@ footer h1{
 	transition: all .2s ease-in-out;
 }
 
+
+/*--------tablet--------*/
 
 
 
