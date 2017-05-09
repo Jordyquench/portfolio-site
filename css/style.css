@@ -72,6 +72,8 @@
 }
 
 
+
+
 /*--------nav--------*/
 
 
@@ -288,6 +290,9 @@ a:hover {
 	opacity: .6;
 }
 
+.portfolio-pic-:hover img{
+	opacity: .6;
+}
 
 .portfolio-info-2{
 	float: left;
@@ -385,6 +390,7 @@ a:hover {
 	margin-right: auto;
 	height: 30em;
 	width: 66em;
+	background-color: red;
 }
 
 .chart{
@@ -465,9 +471,39 @@ footer h1{
 		width: .000001em;
 	}
 
+	.portfolio-info-2{
+		display: none;
+		width: .000001em;
+	}
+
 	.portfolio-pic{
 		width: 100%;
 	}
+
+	.portfolio-pic-2{
+		width: 100%;
+	}
+
+	.portfolio-pic-3{
+		width: 100%;
+	}
+
+	.portfolio-pic:hover{
+	opacity: .6;
+	transition: all .2s ease-in-out;
+	}
+
+	.portfolio-pic-2:hover{
+	opacity: .6;
+	transition: all .2s ease-in-out;
+	}
+
+	.portfolio-pic-3:hover{
+	opacity: .6;
+	transition: all .2s ease-in-out;
+	}
+
+}
 
 }
 
