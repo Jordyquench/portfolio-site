@@ -72,8 +72,6 @@
 }
 
 
-
-
 /*--------nav--------*/
 
 
@@ -390,7 +388,6 @@ a:hover {
 	margin-right: auto;
 	height: 30em;
 	width: 66em;
-	background-color: red;
 }
 
 .chart{
@@ -454,12 +451,7 @@ footer h1{
 
 
 @media (max-width: 600px){
-	nav ul li{
-		box-sizing: border-box;
-		width: 100%;
 
-
-	}
 
 	#hero h1{
 		font-size: 5em;
